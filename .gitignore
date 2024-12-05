@@ -2,3 +2,26 @@
 .Rhistory
 .RData
 .Ruserdata
+
+# Fichiers de données
+data/raw/*.csv
+data/processed/*.csv
+*.parquet
+
+# Fichiers R
+.Rhistory
+.RData
+.Rproj.user/
+*.Rproj
+
+# Dossiers de cache
+.DS_Store
+
+# Fichiers système
+Thumbs.db
+.env
+
+# Fichiers volumineux
+*.zip
+*.rar
+*.7z
